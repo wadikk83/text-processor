@@ -1,0 +1,8 @@
+	I am trying to make a windows. Application
+with C# that has buttons to control Spotify (externally).
+
+	I found this code but what it does is that it uses the windows shortcuts (for example the Volume down
+makes the whole windows volume lower and not the Spotify volume), is there any other way to control the
+Volume and so on that are inside Spotify?
+
+
