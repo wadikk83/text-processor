@@ -1,8 +1,27 @@
-	I am trying to make a windows. Application
-with C# that has buttons to control Spotify (externally).
+    Алгоритм
+    Быстрая сортировка.
 
-	I found this code but what it does is that it uses the windows shortcuts (for example the Volume down
-makes the whole windows volume lower and not the Spotify volume), is there any other way to control the
-Volume and so on that are inside Spotify?
+	Разработанный в 1960 году Тони Хоаром алгоритм использовался для сортировки слов в словаре для перевода и сопоставления уже отсортированному словарю. Слава пришла к алгоритму, когда он был включен в Unix как алгоритм сортировки по умолчанию и занял свое почетное место в STL языка C, где и получил свое всемирно известное название qsort.
 
+Start code
+public class QuickSortExample {
+    public static void main(String[] args) {
+        initArray();
+        printArray();
+        quickSort();
+        printArray();
+    }
+}
+End code
 
+	Бинарный поиск.
+
+	Алгоритм предназначен для поиска элемента в отсортированном по определенному ключу массиве. Сортированные структуры обычно применяются в словарях, где надо найти, например, значение слова, или телефонных книгах. Бинпоиск находит место нужного значения в массиве по его ключу.
+	Нижеприведенная функция binarySearch производит бинарный поиск элементах в массиве array. В качестве результата выдается индекс вхождения элемента х или -1, если элемент х не имеет вхождения в массив.
+
+Start code
+public  static <T extends Comparable<T>> int binarySearch(List<T> array, T x){
+}
+End code
+
+	Нетрудно доказать, что данный код находит именно первое вхождение элемента х в массив array. Поэтому функция нахождения первого вхождения элемента х в массив аrray будет иметь вид. Аналогично можно найти и последнее вхождение элемента х в массив array, немного модифицировав исходный алгоритм. Следует также заметить, что в классе Collections стандартно реализованы вышеприведенные функции, имеющие примерно такой же принцип работы.
