@@ -3,7 +3,7 @@ package com.epamtraining.textprocessor.entity;
 public enum EnumRegularExp {
 
 
-    LISTING_CODE("\\s*(Start code)([^\\t]+)(End code)"),
+    LISTING_CODE("\\s*(Start code)([^\\t]*)(End code)*"),
 
     PARAGRAPH("(?:[^\\n][\\n]?)+"), //"(\\w+)|(\\.{3})|[^\\s]"
 
